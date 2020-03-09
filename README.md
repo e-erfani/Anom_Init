@@ -1,18 +1,8 @@
 # Anom_Init
 Creating modified CESM2 POP initial files for optimal perturbation project, and running CESM2
 
-
 Copy the current directory for yourself, and go to that directory.
-
-Make sure the needed libraries are active. Add the below lines in the file ~/.tcshrc :
-
-module load ncl
-module load nco
-module load mpt/2.19
-module load matlab
-module load python
-module load cdo
-
+Make sure you installed Python and the required libraries (numpy, matplotlib, netCDF4)
 
 Part I:
 Creating modified CESM2 POP initial files.
