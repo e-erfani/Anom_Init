@@ -4,18 +4,18 @@ Motivation:
 
 Anomaly Initialization is a method to improve the seasonal/decadal prediction of a global climate model, especially the ocean oscillators (that are important in long-term predictions). 
 
-In this experiment, we use a common climatology (CMIP6) and add an anomaly called "optimal perturbation" that would excite the ocean oscillator in Atlantic Ocean. 
+In this experiment, we use a common climatology (CMIP6) and add an anomaly called "optimal perturbation" that would excite the ocean oscillator in Atlantic Ocean. We use a global climate model called CESM2.
 
 
 Methods:
 
-Creating modified CESM2 POP initial files for optimal perturbation project, and running CESM2
+Creating modified CESM2 initial files for optimal perturbation project.
 
 Copy the current directory for yourself, and go to that directory.
-Make sure you installed Python and the required libraries (numpy, matplotlib, netCDF4)
+Make sure you installed Python and the required libraries (numpy, matplotlib, netCDF4).
 
 Part I:
-Creating modified CESM2 POP initial files.
+Creating modified CESM2 initial files.
 
 Two python codes will be used. You don't need to change any address or directory. To apply different factors (1, 5, 10, 20, ...), just modify the variable "factor" at the beginning of the python codes.
 
