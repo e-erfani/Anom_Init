@@ -1,4 +1,14 @@
 # Anom_Init
+
+Motivation:
+
+Anomaly Initialization is a method to improve the seasonal/decadal prediction of a global climate model, especially the ocean oscillators (that are important in long-term predictions). 
+
+In this experiment, we use a common climatology (CMIP6) and add an anomaly called "optimal perturbation" that would excite the ocean oscillator in Atlantic Ocean. 
+
+
+Methods:
+
 Creating modified CESM2 POP initial files for optimal perturbation project, and running CESM2
 
 Copy the current directory for yourself, and go to that directory.
