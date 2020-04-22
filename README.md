@@ -1,4 +1,4 @@
-# Anom_Init
+# Anomaly Initialization
 
 Motivation:
 
